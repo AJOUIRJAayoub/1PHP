@@ -1,0 +1,257 @@
+body {
+    background-color: black;
+    color:#fff;
+    margin-left: 20px;
+}
+#logo {
+    width: 350px;
+    height: 230px;
+    margin-top: -60px;
+    margin-left: -60px;
+    float: left;
+}
+
+.search-form {
+    display: inline-block;
+    vertical-align: top;
+    position: absolute;
+    right: 30px;
+}
+
+.search-form input[type="text"] {
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+.search-form button {
+    background-color: #f44336;
+    border: none;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Style pour la grille de films */
+.film-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+}
+
+/* Style pour chaque élément de la grille de films */
+.film-item {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.film-item img {
+    width: 15%;
+    height: 15%;
+    margin-bottom: 10px;
+}
+
+.film-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.film-item .prix {
+    font-weight: bold;
+    font-size: 18px;
+    color: #f44336;
+    margin-bottom: 10px;
+}
+
+.film-item .realisateur {
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.film-item .description {
+    font-size: 14px;
+}
+
+   /* Style pour le bouton "Acheter" */
+.acheter-btn {
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.acheter-btn:hover {
+    background-color: #e53935;
+}
+
+
+nav {
+    background-color: #000000;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    line-height: 76px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+nav ul li a.active,
+nav ul li a:hover {
+    background-color: #f44336;
+}
+
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Acheter-btn {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Acheter-btn {
+    background-color: #f44336;
+}
+
+.Ajouter-panier-btn {
+    background-color: #2ecc71;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* ... */
+.nav-right {
+    position: absolute;
+    right: 50px;
+    top: 80px;
+    height: 100%;
+}
+
+.nav-button {
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: black; /* Change text color to black */
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav-button:hover {
+    background-color: #ff9900;
+    color: black; /* Change hover text color to black */
+    text-decoration: none;
+}
+
+
+.Attention {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.avis-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    }
+    
+    .avis-container h3 {
+        margin-top: 0;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .rating {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .rating input[type="radio"] {
+        display: none;
+    }
+    
+    .rating label {
+        font-size: 25px;
+        color: #ddd;
+        float: right;
+    }
+    
+    .rating label:before {
+        content: "\2605";
+    }
+    
+    .rating input[type="radio"]:checked ~ label {
+        color: #f7d155;
+    }
+    
+    label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    textarea {
+        border-radius: 5px;
+        border: 1px solid #ddd;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    
+    button[type="submit"] {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+    
+    button[type="submit"]:hover {
+        background-color: #e53935;
+    }
+    
+
