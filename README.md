@@ -1,6 +1,6 @@
 # FlopFlix - Site de Vente de Films en Ligne
 
-
+![FlopFlix Logo](./FlopFlix/IMG/Logo_FlopFlix.png)
 
 ## Description
 
