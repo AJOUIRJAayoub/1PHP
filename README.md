@@ -73,7 +73,7 @@ FlopFlix/
 
 1. **Cloner ou télécharger le projet**
    ```bash
-   git clone https://github.com/votre-username/FlopFlix.git
+   git clone https://github.com/AJOURIJAayoub/FlopFlix.git
    ```
 
 2. **Configurer le serveur web**
